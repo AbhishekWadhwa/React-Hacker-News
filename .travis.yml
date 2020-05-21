@@ -17,7 +17,7 @@ jobs:
     - name: 'Unit Test Execution'
       script: yarn test
     - stage: deployment
-      name: 'Deploy artifacts to Heroku'
+      name: 'Deployment to Heroku'
       before_deploy:
         - yarn build
       deploy:
