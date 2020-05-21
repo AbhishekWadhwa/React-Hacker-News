@@ -22,3 +22,8 @@ jobs:
         - yarn build
       deploy:
         provider: heroku
+        api_key:
+          secure: b84cc163-8808-48d8-b801-a956e01f8636
+        app: xt-react-hacker-news
+        on:
+          repo: AbhishekWadhwa/React-Hacker-News

@@ -1,1 +1,1 @@
-# React-Hacker-News
+# React-Hacker-News [![Build Status](https://travis-ci.org/AbhishekWadhwa/React-Hacker-News.svg?branch=master)](https://travis-ci.org/github/AbhishekWadhwa/React-Hacker-News)
