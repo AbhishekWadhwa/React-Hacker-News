@@ -9,9 +9,6 @@ env:
   - CI=true
 jobs:
   include:
-    - stage: 'Tests'
-      name: 'ES Lint'
-      script: yarn test:lint:js
     - name: 'CSS Lint'
       script: yarn test:lint:css
     - name: 'Unit Test Execution'
